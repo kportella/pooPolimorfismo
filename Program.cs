@@ -37,6 +37,8 @@ namespace pooPolimorfismo
 
         static void exibirTipo(Formas forma)
         {
+            Quadrado q = (Quadrado)forma;
+            q.Teste = "dsSADsasd";
             Console.WriteLine("Tipo da forma: " + forma.FormaGeometrica);
         }
     }
